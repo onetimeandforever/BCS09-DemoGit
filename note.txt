@@ -11,3 +11,9 @@ kiểm tra các file đang nằm trên staging area
 
 lệnh tạo ra một commit (lịch sử phiên bản)
 -git commit -m "nội dung tin nhắn"
+
+câu lệnh đẩy code lên github lần đầu
+-git push -u origin (tên nhánh, có thể coi ở góc dưới cuối bên tay trái vscode)
+
+câu lệnh đẩy code lên github từ lần thứ 2
+-git push 
