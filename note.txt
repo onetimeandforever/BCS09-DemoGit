@@ -12,6 +12,9 @@ kiểm tra các file đang nằm trên staging area
 lệnh tạo ra một commit (lịch sử phiên bản)
 -git commit -m "nội dung tin nhắn"
 
+lệnh dùng để kết nối giữa local repo và remote repo
+- git remote add origin ( đường dẫn tới remote repo)
+
 câu lệnh đẩy code lên github lần đầu
 -git push -u origin (tên nhánh, có thể coi ở góc dưới cuối bên tay trái vscode)
 
@@ -20,6 +23,6 @@ câu lệnh đẩy code lên github từ lần thứ 2
 
 
 3 bước để đẩy code lên github
-Bước 1: git add. (đẩy các thay đổi trong các file len khu vực staging area)
+Bước 1: git add . (đẩy các thay đổi trong các file len khu vực staging area)
 Bước 2:git commit -m "nội dung tin nhắn" (tạo ra một lịch sử phiên bản code của chúng ta)
 Bước 3: chạy 1 trong 2 lệnh git push -u origin + tên nhánh (nếu lần đầu đảy code lên remote repo github đó) hoặc git push (nếu đã đây lên 1 lần r)
